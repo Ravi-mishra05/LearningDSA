@@ -11,13 +11,13 @@ public class L1_matrixSearch {
                 { 20, 22, 25, 30 }
         };
         System.out.println(Arrays.toString(traversal(matrix, 13)));
-        System.out.println(Arrays.toString(rowColMatrix(matrix, 13)));
+        System.out.println((searchMatrix(matrix, 13)));
 
     }
 
     static int[] traversal(int[][] matrix, int target) {
-        for (int i = 0; i < matrix.length ; i++) {
-            for (int j = 0; j < matrix[i].length ; j++) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
                 if (matrix[i][j] == target) {
                     return new int[] { i, j };
                 }
@@ -26,25 +26,24 @@ public class L1_matrixSearch {
         return new int[] { -1, -1 };
     }
 
-    static int[] rowColMatrix(int[][] matrix, int target) {
+    static public boolean searchMatrix(int[][] arr, int target) {
         int row = 0;
-        int col = matrix.length - 1;
-
-        while (row < matrix.length - 1 && col > 0) {
-            if (matrix[row][col] == target) {
-                return new int[] { row, col };
+        int col = arr[row].length - 1;
+        while (row < arr.length && col >= 0) {
+            if (arr[row][col] == target) {
+                return true;
             }
 
-            if (matrix[row][col] > target) {
-                col--;
-            } else {
+            // Target lies in further row
+            if (arr[row][col] < target) {
                 row++;
             }
+            // Target lies in previous column
+            else {
+                col--;
+            }
         }
-        return new int[] { -1, -1 };
+        return false;
     }
 
-    // static int[] sortedMatrix(int [][] matrix, int target){
-
-    // }
 }
