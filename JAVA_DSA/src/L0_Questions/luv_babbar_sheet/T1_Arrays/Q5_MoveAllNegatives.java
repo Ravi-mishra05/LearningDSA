@@ -5,40 +5,46 @@ import java.util.Arrays;
 public class Q5_MoveAllNegatives {
     public static void main(String[] args) {
         int[] arr = { 1, -1, 3, 2, -7, -5, 11, 6 };
-        segregateElements(arr, 8);
+        segregateElements1(arr, 8);
     }
-    public static void segregateElements(int arr[], int n) { //solution
-        int cnt = 0;
+
+    public static void segregateElements(int arr[], int n) { // solution
+        int count = 0;
         for (int i = 0; i < n; i++) {
-        if (arr[i] >= 0) cnt++;
+            if (arr[i] >= 0)
+                count++;
         }
-        int mid = cnt, start = 0;
-        int[] positiveElements = new int[n];
+        // for new array - positiveElements
+        int last = count, start = 0;
+        int[] newArr = new int[n];
         for (int i = 0; i < n; i++) {
-            if (arr[i] >= 0) positiveElements[start++] = arr[i];
-            else positiveElements[mid++] = arr[i];
+            if (arr[i] >= 0)
+                newArr[start++] = arr[i];
+            else
+                newArr[last++] = arr[i];
         }
+        // copy to original array
         for (int i = 0; i < n; i++) {
-            arr[i] = positiveElements[i];
+            arr[i] = newArr[i];
         }
     }
 
-    public static void swap(int[] arr, int first, int second) {
-        int temp = arr[first];
-        arr[first] = arr[second];
-        arr[second] = temp;
-    }
+    // public static void swap(int[] arr, int first, int second) {
+    //     int temp = arr[first];
+    //     arr[first] = arr[second];
+    //     arr[second] = temp;
+    // }
 
     public static void segregateElements1(int arr[], int n) {
-        int x = 0;
+        int count = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > 0) {
-                x++;
+                count++;
             }
         }
-        // System.out.println(x);
-        int[] positives = new int[x];
-        int[] negatives = new int[n - x];
+        // System.out.println(count);
+        int[] positives = new int[count];
+        int[] negatives = new int[n - count];
 
         int k = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -58,13 +64,13 @@ public class Q5_MoveAllNegatives {
         // System.out.println(Arrays.toString(positives));
         // System.out.println(Arrays.toString(negatives));
 
-        //  now changing the main array
+        // now changing the main array
         for (int i = 0; i < positives.length; i++) {
             arr[i] = positives[i];
         }
-        
-        for(int i = 0; i< negatives.length ;i++){
-            arr[x+i] = negatives[i];
+
+        for (int i = 0; i < negatives.length; i++) {
+            arr[count + i] = negatives[i];
         }
 
         System.out.println(Arrays.toString(arr));

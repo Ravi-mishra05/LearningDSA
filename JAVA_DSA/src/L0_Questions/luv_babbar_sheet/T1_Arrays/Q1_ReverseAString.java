@@ -7,6 +7,9 @@ public class Q1_ReverseAString {
     // Input:
     // s = Geeks
     // Output: skeeG
+    public static void main(String[] args) {
+
+    }
 
     public static String reverseWord(String str) {
         // Reverse the string str
@@ -21,10 +24,6 @@ public class Q1_ReverseAString {
             end--;
         }
         return new String(arr);
-
     }
 
-    public static void main(String[] args) {
-
-    }
 }
