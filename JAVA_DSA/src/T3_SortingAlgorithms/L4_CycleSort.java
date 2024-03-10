@@ -1,4 +1,4 @@
-package L7_SortingAlgorithms;
+package T3_SortingAlgorithms;
 
 import java.util.Arrays;
 

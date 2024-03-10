@@ -1,8 +1,8 @@
-package L6B_BinarySearchIn2DArrays;
+package T2_SearchingAlgorithms.S2_BinarySearch;
 
 import java.util.Arrays;
 
-public class L1_matrixSearch {
+public class C3_matrixSearch {
     public static void main(String[] args) {
         int[][] matrix = {
                 { 1, 3, 5, 8 },

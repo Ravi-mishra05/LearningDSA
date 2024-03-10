@@ -1,4 +1,4 @@
-package L6_BinarySearch;
+package T2_SearchingAlgorithms.S2_BinarySearch;
 
 public class C2_OrderAgnosticBinarySearch {
     public static void main(String[] args) {

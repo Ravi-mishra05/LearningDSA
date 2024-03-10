@@ -1,4 +1,4 @@
-package L4_ArraysAndArraylists;
+package T1_ArraysAndArraylists;
 
 import java.util.Arrays;
 import java.util.Scanner;
