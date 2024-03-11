@@ -1,4 +1,4 @@
-package T6_Recursion;
+package T11_Recursion;
 
 public class C1_Print1toN {
     public static void main(String[] args) {
