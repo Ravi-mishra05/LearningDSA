@@ -1,4 +1,4 @@
-package L0_Questions.luv_babbar_sheet.T2_Matrixs;
+package T2_luv_babbar_sheet.T2_Matrixs;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package L0_Questions.Dailly_Questions_LC_2024;
+package T1_Dailly_Questions_LC_2024;
 
 // https://leetcode.com/problems/missing-number/description/?envType=daily-question&envId=2024-02-20
 // 268. Missing Number

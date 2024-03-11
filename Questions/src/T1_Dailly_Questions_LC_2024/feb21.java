@@ -1,4 +1,4 @@
-package L0_Questions.Dailly_Questions_LC_2024;
+package T1_Dailly_Questions_LC_2024;
 
 // https://leetcode.com/problems/bitwise-and-of-numbers-range/?envType=daily-question&envId=2024-02-21
 // 201. Bitwise AND of Numbers Range

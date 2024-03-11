@@ -1,4 +1,4 @@
-package L0_Questions.luv_babbar_sheet.T1_Arrays;
+package T2_luv_babbar_sheet.T1_Arrays;
 // https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1
 
 import java.util.Arrays;

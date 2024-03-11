@@ -1,4 +1,4 @@
-package L0_Questions.luv_babbar_sheet.T1_Arrays;
+package T2_luv_babbar_sheet.T1_Arrays;
 // https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1
 
 public class Q2_FindMinimumAndMaximumlementInAnArray {

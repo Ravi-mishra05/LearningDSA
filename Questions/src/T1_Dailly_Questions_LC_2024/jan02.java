@@ -1,4 +1,4 @@
-package L0_Questions.Dailly_Questions_LC_2024;
+package T1_Dailly_Questions_LC_2024;
 
 // import java.util.List;
 

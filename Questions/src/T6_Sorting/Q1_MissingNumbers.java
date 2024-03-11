@@ -1,4 +1,4 @@
-package L8_SortingQuestions;
+package T6_Sorting;
 
 // https://leetcode.com/problems/missing-number/
 public class Q1_MissingNumbers {

@@ -1,4 +1,4 @@
-package L0_Questions.luv_babbar_sheet.T1_Arrays;
+package T2_luv_babbar_sheet.T1_Arrays;
 
 // https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
 public class Q8_KadanesAlgorithm {
