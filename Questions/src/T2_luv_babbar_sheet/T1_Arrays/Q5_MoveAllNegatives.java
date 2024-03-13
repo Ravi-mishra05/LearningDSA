@@ -2,6 +2,7 @@ package T2_luv_babbar_sheet.T1_Arrays;
 
 import java.util.Arrays;
 
+// solved but need to check.
 public class Q5_MoveAllNegatives {
     public static void main(String[] args) {
         int[] arr = { 1, -1, 3, 2, -7, -5, 11, 6 };
@@ -30,9 +31,9 @@ public class Q5_MoveAllNegatives {
     }
 
     // public static void swap(int[] arr, int first, int second) {
-    //     int temp = arr[first];
-    //     arr[first] = arr[second];
-    //     arr[second] = temp;
+    // int temp = arr[first];
+    // arr[first] = arr[second];
+    // arr[second] = temp;
     // }
 
     public static void segregateElements1(int arr[], int n) {

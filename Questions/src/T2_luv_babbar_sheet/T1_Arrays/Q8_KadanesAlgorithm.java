@@ -1,6 +1,8 @@
 package T2_luv_babbar_sheet.T1_Arrays;
 
 // https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
+
+// solved
 public class Q8_KadanesAlgorithm {
     public static void main(String[] args) {
 

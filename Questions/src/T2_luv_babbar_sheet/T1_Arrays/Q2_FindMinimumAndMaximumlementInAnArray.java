@@ -1,6 +1,8 @@
 package T2_luv_babbar_sheet.T1_Arrays;
 // https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1
 
+// solved
+
 public class Q2_FindMinimumAndMaximumlementInAnArray {
     public static void main(String[] args) {
         // N = 6

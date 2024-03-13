@@ -1,6 +1,10 @@
 package T2_luv_babbar_sheet.T1_Arrays;
 
+import java.util.Arrays;
+
 // https://www.geeksforgeeks.org/problems/minimize-the-heights3351/1
+
+// solved with some help.
 public class Q9_MinimiseHeights2 {
     public static void main(String[] args) {
         // int[] arr = { 1, 5, 8, 10 };
@@ -10,28 +14,21 @@ public class Q9_MinimiseHeights2 {
 
     // @SuppressWarnings("unused")
     private static int minimiseHeight(int arr[], int k, int n) {
-        int max = Integer.MIN_VALUE;
-        int min = Integer.MAX_VALUE;
+        Arrays.sort(arr);
+        int ans = arr[n - 1] - arr[0];
 
-        for (int i = 0; i < n; i++) {
-            if (arr[i] > k) {
-                arr[i] -= k;
-            } else {
-                arr[i] += k;
-            }
+        int largest = arr[n - 1] - k;
+        int smallest = arr[0] + k;
 
-            if (arr[i] > max) {
-                max = Math.max(arr[i], max);
-            } else {
-                min = Math.min(arr[i], min);
-            }
-
+        for (int i = 0; i < n - 1; i++) {
+            int min = Math.min(smallest, arr[i + 1] - k);
+            int max = Math.max(largest, arr[i] + k);
+            if (min < 0)
+                continue;
+            ans = Math.min(ans, max - min);
         }
 
-        // for (int i = 0; i < arr.length; i++) {
-
-        // }
-        return (max - min);
+        return ans;
     }
 
 }

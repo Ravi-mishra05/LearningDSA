@@ -2,12 +2,15 @@ package T2_luv_babbar_sheet.T1_Arrays;
 
 // https://www.geeksforgeeks.org/problems/union-of-two-arrays3538/1
 
+// unsolved
+
 public class Q6_UnionOfTwoArrays {
     public static void main(String[] args) {
 
     }
-    public static int doUnion(int a[], int n, int b[], int m){
-        //requires hashmap to solve.
+
+    public static int doUnion(int a[], int n, int b[], int m) {
+        // requires hashmap to solve.
         return 0;
     }
 

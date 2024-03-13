@@ -3,6 +3,8 @@ package T2_luv_babbar_sheet.T1_Arrays;
 import java.util.Arrays;
 
 // https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1
+
+// solved
 public class Q4_SortArray {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 2, 1, 0, 0 };
@@ -48,34 +50,34 @@ public class Q4_SortArray {
 
 // solution:
 // public static void sort012(int arr[], int n)
-//     {
-//           // int n = arr.length;
-//         int var0 = 0;
-//         int var1 = 0;
-//         int var2 = 0;
-//         for (int i = 0; i < n; i++) {
-//             if (arr[i] == 0) {
-//                 var0++;
-//             } else if (arr[i] == 1) {
-//                 var1++;
-//             } else {
-//                 var2++;
-//             }
-//         }
-//         int k = 0;
-        
-//         for (int i = 0; i < var0; i++) {
-//             arr[k] = 0;
-//             k++;
-//         }
-//         for (int i = 0; i < var1; i++) {
-//             arr[k] = 1;
-//             k++;
+// {
+// // int n = arr.length;
+// int var0 = 0;
+// int var1 = 0;
+// int var2 = 0;
+// for (int i = 0; i < n; i++) {
+// if (arr[i] == 0) {
+// var0++;
+// } else if (arr[i] == 1) {
+// var1++;
+// } else {
+// var2++;
+// }
+// }
+// int k = 0;
 
-//         }
-//         for (int i = 0; i < var2; i++) {
-//             arr[k] = 2;
-//             k++;
+// for (int i = 0; i < var0; i++) {
+// arr[k] = 0;
+// k++;
+// }
+// for (int i = 0; i < var1; i++) {
+// arr[k] = 1;
+// k++;
 
-//         }
-//     }
+// }
+// for (int i = 0; i < var2; i++) {
+// arr[k] = 2;
+// k++;
+
+// }
+// }

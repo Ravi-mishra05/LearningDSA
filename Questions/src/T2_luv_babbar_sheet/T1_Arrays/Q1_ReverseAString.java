@@ -1,6 +1,8 @@
 package T2_luv_babbar_sheet.T1_Arrays;
 // https://www.geeksforgeeks.org/problems/reverse-a-string/1
 
+// solved
+
 public class Q1_ReverseAString {
     // You are given a string s. You need to reverse the string.
     // Example 1:
