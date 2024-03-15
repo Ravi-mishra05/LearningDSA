@@ -1,4 +1,4 @@
-package T3_TopicWise.T5_Searchings.BinarySearch;
+package T3_TopicWise.T3_Searchings.BinarySearch;
 
 public class Q5_PositionOfAnElement {
     // find position of an element in a sorted array of an infinite numbers

@@ -1,4 +1,4 @@
-package T3_TopicWise.T5_Searchings.BinarySearch;
+package T3_TopicWise.T3_Searchings.BinarySearch;
 
 // https://leetcode.com/problems/find-in-mountain-array/
 public class Q7_FindInMountainArray {

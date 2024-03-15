@@ -1,4 +1,4 @@
-package T3_TopicWise.T5_Searchings.BinarySearch;
+package T3_TopicWise.T3_Searchings.BinarySearch;
 
 public class Q2_FloorOFNumber {
     public static void main(String[] args) {

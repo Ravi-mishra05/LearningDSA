@@ -1,4 +1,4 @@
-package T3_TopicWise.T5_Searchings.BinarySearch;
+package T3_TopicWise.T3_Searchings.BinarySearch;
 
 // https://leetcode.com/problems/peak-index-in-a-mountain-array/
 public class Q6_PeakElementInMountainArray {

@@ -1,4 +1,4 @@
-package T3_TopicWise.T6_Sorting;
+package T3_TopicWise.T4_Sorting;
 
 // https://leetcode.com/problems/missing-number/
 public class Q1_MissingNumbers {
