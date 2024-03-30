@@ -3,7 +3,6 @@ package T6_LinkedList;
 // import java.util.LinkedList;
 
 public class Main {
-    @SuppressWarnings("unused")
     public static void main(String[] args) {
         // LinkedList<Integer> list = new LinkedList<>();
         // list.add(10);

@@ -11,7 +11,7 @@ public class Q11_FindDuplicatesInArray {
 
     public static ArrayList<Integer> duplicates(int arr[], int n) {
         ArrayList<Integer> list = new ArrayList<>();
-
+        
         return list;
     }
 }
