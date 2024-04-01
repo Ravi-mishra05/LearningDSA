@@ -1,7 +1,5 @@
 package T6_LinkedList;
 
-// package com.kunal;
-
 public class SinglyLL {
 
     private Node head;
