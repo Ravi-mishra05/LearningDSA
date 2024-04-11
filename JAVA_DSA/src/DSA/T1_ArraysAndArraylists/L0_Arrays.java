@@ -11,7 +11,7 @@ public class L0_Arrays {
         // define a array
         int[] arr = { 1, 3, 5, 7, 9 };
 
-        System.out.println(Arrays.toString(arr));  // print the array by converting it to string.
+        System.out.println(Arrays.toString(arr)); // print the array by converting it to string.
 
         int[] arr2 = new int[5];
 
@@ -20,10 +20,12 @@ public class L0_Arrays {
             arr2[i] = in.nextInt();
         }
 
-        // printing an array  - using foreach loop.
+        // printing an array - using foreach loop.
         for (int i : arr2) {
             System.out.print(i + " ");
         }
-//        return;
+        // return;
+        in.close();
+
     }
 }
