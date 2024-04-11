@@ -10,7 +10,6 @@ public class C2_FibbonacciNumber {
         if (n < 2) {
             return n;
         }
-
         return FibonacciNumber(n - 1) + FibonacciNumber(n - 2);
     }
 }
