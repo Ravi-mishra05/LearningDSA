@@ -24,7 +24,6 @@ public class L0_Arrays {
         for (int i : arr2) {
             System.out.print(i + " ");
         }
-
-        in.close();
+//        return;
     }
 }
