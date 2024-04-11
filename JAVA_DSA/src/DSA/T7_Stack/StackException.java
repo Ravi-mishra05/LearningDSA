@@ -1,4 +1,4 @@
-package T7_Stack;
+package DSA.T7_Stack;
 
 public class StackException extends Exception {
     public StackException(String message) {

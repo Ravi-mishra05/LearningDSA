@@ -1,4 +1,4 @@
-package T11_Recursion.Questions1;
+package DSA.T11_Recursion.Questions1;
 
 public class Q1 {
     public static void main(String[] args) {
@@ -6,10 +6,9 @@ public class Q1 {
     }
 
     static void printTillN(int n) {
-        if (n == 0)
+        if (n == 0) {
+            System.out.println("end");
             return;
-        if (n == 1) {
-            System.out.print(n + "  End");
         }
         System.out.print(n + " ");
         printTillN(n - 1);

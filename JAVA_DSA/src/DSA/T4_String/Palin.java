@@ -1,4 +1,4 @@
-package T4_String;
+package DSA.T4_String;
 
 public class Palin {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package T8_Queue;
+package DSA.T8_Queue;
 
 public class DynamicQueue extends CircularQueue{
     public DynamicQueue() {

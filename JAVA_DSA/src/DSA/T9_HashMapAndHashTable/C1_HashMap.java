@@ -1,4 +1,4 @@
-package T9_HashMapAndHashTable;
+package DSA.T9_HashMapAndHashTable;
 
 import java.util.HashMap;
 

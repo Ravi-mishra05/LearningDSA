@@ -1,4 +1,4 @@
-package T1_ArraysAndArraylists;
+package DSA.T1_ArraysAndArraylists;
 
 // import java.util.ArrayList;
 import java.util.Arrays;

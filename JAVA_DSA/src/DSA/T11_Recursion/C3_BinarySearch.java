@@ -1,4 +1,4 @@
-package T11_Recursion;
+package DSA.T11_Recursion;
 
 public class C3_BinarySearch {
     public static void main(String[] args) {

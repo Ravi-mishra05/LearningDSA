@@ -1,4 +1,4 @@
-package T7_Stack;
+package DSA.T7_Stack;
 
 import java.util.Arrays;
 

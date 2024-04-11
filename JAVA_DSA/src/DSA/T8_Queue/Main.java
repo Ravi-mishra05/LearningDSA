@@ -1,4 +1,4 @@
-package T8_Queue;
+package DSA.T8_Queue;
 
 import java.util.LinkedList;
 import java.util.Queue;

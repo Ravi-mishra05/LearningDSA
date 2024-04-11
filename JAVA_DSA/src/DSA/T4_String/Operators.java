@@ -1,4 +1,4 @@
-package T4_String;
+package DSA.T4_String;
 import java.util.ArrayList;
 
 public class Operators {

@@ -1,4 +1,4 @@
-package T3_SortingAlgorithms;
+package DSA.T3_SortingAlgorithms;
 
 public class L3_InsertionSort {
     public static void main(String[] args) {

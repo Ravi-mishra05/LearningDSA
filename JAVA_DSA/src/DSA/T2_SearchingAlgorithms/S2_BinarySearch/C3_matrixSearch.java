@@ -1,4 +1,4 @@
-package T2_SearchingAlgorithms.S2_BinarySearch;
+package DSA.T2_SearchingAlgorithms.S2_BinarySearch;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package T2_SearchingAlgorithms.S1_LinearSearch;
+package DSA.T2_SearchingAlgorithms.S1_LinearSearch;
 
 public class C1_LinearSearch {
     public static void main(String[] args) {

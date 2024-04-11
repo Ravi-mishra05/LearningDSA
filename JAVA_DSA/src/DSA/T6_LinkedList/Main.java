@@ -1,4 +1,4 @@
-package T6_LinkedList;
+package DSA.T6_LinkedList;
 
 // import java.util.LinkedList;
 
