@@ -3,7 +3,6 @@ package DSA.T4_String;
 import java.util.ArrayList;
 
 public class Operators {
-    @SuppressWarnings("removal")
     public static void main(String[] args) {
         System.out.println('a' + 'b');
         System.out.println("a" + "b");
