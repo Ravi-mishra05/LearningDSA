@@ -13,9 +13,9 @@ public class Operators {
         // integer will be converted to Integer that will call toString()
 
         System.out.println("Kunal" + new ArrayList<>());
-        System.out.println("Kunal" + new Integer(56));
-        String ans = new Integer(56) + "" + new ArrayList<>();
-        System.out.println(ans);
+        // System.out.println("Kunal" + new Integer(56));
+        // String ans = new Integer(56) + "" + new ArrayList<>();
+        // System.out.println(ans);
 
         System.out.println("a" + 'b');
     }
