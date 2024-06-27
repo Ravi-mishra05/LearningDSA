@@ -9,6 +9,7 @@ public class Q11_Duplicates {
     public static void main(String[] args) {
         int[] arr = {3, 4, 12, 3, 12, 3, 4, 4, 12, 7, 11, 6, 5};
         System.out.println(duplicates(arr, 13));
+        System.out.println(duplicates1(arr, 13));
 
     }
     private static ArrayList<Integer> duplicates(int arr[], int n) {

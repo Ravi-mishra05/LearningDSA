@@ -8,6 +8,7 @@ public class Q2_FindMinMaxFromArray {
         int[] arr1 = {3, 2, 1, 56, 10000, 167};
         System.out.println(Arrays.toString(maxMin(arr, 6)));
         System.out.println(Arrays.toString(maxMin1(arr1)));
+        System.out.println(Arrays.toString(maxMin2(arr,6)));
     }
 
     //Approach 1: iteration
