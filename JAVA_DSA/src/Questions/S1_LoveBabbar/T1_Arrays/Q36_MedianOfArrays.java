@@ -9,7 +9,7 @@ public class Q36_MedianOfArrays {
         System.out.println(medianOfArrays(3, 4, arr1, arr2));
     }
 
-    static double medianOfArrays(int n, int m, int a[], int b[]) {
+    private static double medianOfArrays(int n, int m, int a[], int b[]) {
         // Your Code Here
         int size = n + m;
         int[] array = new int[size];

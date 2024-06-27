@@ -7,8 +7,8 @@ public class Q14_OverlappingIntervals {
         int[][] arr = {{6,8},{1,9},{2,4},{4,7}};
         System.out.println(Arrays.deepToString(overlappedInterval(arr)));
     }
-    public static int[][] overlappedInterval(int[][] Intervals) {
-
+    private static int[][] overlappedInterval(int[][] Intervals) {
+        
         return new int[][]{{0, 0}, {0, 0}};
     }
 }

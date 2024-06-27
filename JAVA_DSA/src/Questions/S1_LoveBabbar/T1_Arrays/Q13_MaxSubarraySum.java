@@ -9,7 +9,7 @@ public class Q13_MaxSubarraySum {
 //    The algorithm is known for its simplicity and effectiveness, and it has applications in fields such as image processing, data analysis, and algorithmic problem-solving.
 
 
-    public static long maxSubarraySum(int arr[], int n) {
+private static long maxSubarraySum(int arr[], int n) {
         long maxSum = Long.MIN_VALUE;
         long currSum = 0;
         for (int i = 0; i < n; i++) {

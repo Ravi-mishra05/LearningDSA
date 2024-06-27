@@ -6,7 +6,7 @@ public class Q34_pallinArray {
         System.out.println(palinArray(arr, 5));
     }
 
-    public static int palinArray(int[] a, int n) {
+    private static int palinArray(int[] a, int n) {
         //add code here.
         for (int i : a) {
             if (!checkPalin(i)) {
@@ -16,7 +16,7 @@ public class Q34_pallinArray {
         return 1;
     }
 
-    public static boolean checkPalin(int n) {
+    private static boolean checkPalin(int n) {
         int num = n;
         int last;
         int newNum = 0;

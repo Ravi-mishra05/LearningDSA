@@ -10,7 +10,7 @@ public class Q9_MinimizeTheHeightsII {
         System.out.println(ans);
     }
 
-    public static int getMinDiff(int[] arr, int n, int k) {
+    private static int getMinDiff(int[] arr, int n, int k) {
         Arrays.sort(arr);
         int ans = arr[n - 1] - arr[0];
 

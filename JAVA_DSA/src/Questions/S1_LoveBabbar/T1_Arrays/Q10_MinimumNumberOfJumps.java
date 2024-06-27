@@ -6,8 +6,8 @@ public class Q10_MinimumNumberOfJumps {
         int[] arr = {1, 4, 3, 2, 6, 7};
         System.out.println(minJumps(arr));
     }
-    public static int minJumps(int[] arr){
-
+    private static int minJumps(int[] arr){
+        
         return 0;
     }
 }

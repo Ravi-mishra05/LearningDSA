@@ -7,7 +7,7 @@ public class Q35_FindMedian {
         int[] arr = {90,100,78,89,67};
         System.out.println(find_median(arr));
     }
-    public static int find_median(int[] array) {
+    private static int find_median(int[] array) {
         int size = array.length;
         Arrays.sort(array);
         if (size % 2 == 0) {

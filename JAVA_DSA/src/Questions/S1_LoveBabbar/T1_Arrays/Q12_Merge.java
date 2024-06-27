@@ -13,7 +13,7 @@ public class Q12_Merge {
         System.out.println(Arrays.toString(arr2));
     }
 
-    public static void merge(long arr1[], long arr2[], int n, int m) {
+    private static void merge(long arr1[], long arr2[], int n, int m) {
         // code here
         ArrayList<Long> list = new ArrayList<>();
         for(long i : arr1){

@@ -7,7 +7,7 @@ public class Q8_KadanesAlgo {
         long ans = maxSubarraySum(arr,n);
         System.out.println(ans);
     }
-    public static long maxSubarraySum(int arr[], int n){
+    private static long maxSubarraySum(int arr[], int n){
         long maxSum = Long.MIN_VALUE;
         long currSum = 0;
         for(int i = 0; i< n ; i++){

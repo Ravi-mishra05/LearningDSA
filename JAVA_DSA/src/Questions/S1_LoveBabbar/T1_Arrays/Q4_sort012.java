@@ -9,7 +9,7 @@ public class Q4_sort012 {
         sort012(arr);
     }
 
-    public static void sort012(int[] arr) {
+    private static void sort012(int[] arr) {
         int count0 = 0;
         int count1 = 0;
         int count2 = 0;
@@ -41,7 +41,7 @@ public class Q4_sort012 {
 
 //    Approach 2: Dutch National Flag algorithm, also known as the Three-Way Partitioning algorithm.
 
-    public static void sort012a(int[] arr) {
+    private static void sort012a(int[] arr) {
         int low = 0;
         int high = arr.length - 1;
         int mid = 0;

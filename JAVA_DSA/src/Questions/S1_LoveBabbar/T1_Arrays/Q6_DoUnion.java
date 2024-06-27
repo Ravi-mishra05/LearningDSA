@@ -9,7 +9,7 @@ public class Q6_DoUnion {
 //        doUnion(arr,6, arr1,2);
         System.out.println(doUnion(arr,6, arr1,2));
     }
-    public static int doUnion(int a[], int n, int b[], int m) {
+    private static int doUnion(int a[], int n, int b[], int m) {
         HashMap <Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < n; i++) {
             map.put(a[i], a[i]);

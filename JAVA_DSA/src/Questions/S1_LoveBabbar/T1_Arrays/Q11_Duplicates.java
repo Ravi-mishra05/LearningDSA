@@ -11,7 +11,7 @@ public class Q11_Duplicates {
         System.out.println(duplicates(arr, 13));
 
     }
-    public static ArrayList<Integer> duplicates(int arr[], int n) {
+    private static ArrayList<Integer> duplicates(int arr[], int n) {
         HashMap <Integer,Integer> map = new HashMap<>();
         ArrayList <Integer> list = new ArrayList<>();
         for(int i : arr){
@@ -28,7 +28,7 @@ public class Q11_Duplicates {
     }
 
     //  Time limit exceeded.
-    public static ArrayList<Integer> duplicates1(int arr[], int n) {
+    private static ArrayList<Integer> duplicates1(int arr[], int n) {
         // code here
         ArrayList<Integer> list1 = new ArrayList<>();
         ArrayList<Integer> list2 = new ArrayList<>();

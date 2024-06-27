@@ -8,12 +8,12 @@ public class Q5_SegregateElements {
         segregateElements(arr);
         System.out.println(Arrays.toString(arr));
     }
-    public static void segregateElements(int[] arr) {
-        int cnt = 0;
+    private static void segregateElements(int[] arr) {
+        int count = 0;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] >= 0) cnt++;
+            if (arr[i] >= 0) count++;
         }
-        int mid = cnt, start = 0;
+        int mid = count, start = 0;
 
         int[] positiveElements = new int[arr.length];
 
