@@ -1,0 +1,28 @@
+Why strings are immutable in Java?
+
+What are Immutable objects?
+Immutable objects are objects which once declared elements can’t be modified after it.
+
+How are String Immutable?
+A String in Java that is specified as immutable, as the content shared storage in a single pool to minimize creating a copy of the same value. 
+String class and all wrapper classes in Java that include Boolean, Character, Byte, Short, Integer, Long, Float, and Double are immutable. 
+A user is free to create immutable classes of their own.
+
+import java.io.*;
+
+class GFG {
+	public static void main (String[] args) {
+	String str="Knowledge";
+	String s=str;
+	str=str.concat(" Base");
+	System.out.println(str);
+	}
+}
+
+This appends a string ” base” to str. But wait, how is this possible, since String objects are immutable? Well to your surprise, it is.
+When the above statement is executed, the VM takes the value of String str, i.e. “knowledge” and appends ” base”, giving us the value “knowledge base”. Now, since Strings are immutable, the VM can’t assign this value to str, so it creates a new String object, gives it a value “knowledge base”, and gives it reference str.
+An important point to note here is that, while the String object is immutable, its reference variable is not. So that’s why, in the above example, the reference was made to refer to a newly formed String object.
+At this point in the example above, we have two String objects: the first one we created with the value “knowledge”, pointed to by s, and the second one “knowledge base”, pointed to by str. But, technically, we have three String objects, the third one being the literal “base” in the concat statement.
+
+
+Read @ https://www.geeksforgeeks.org/java-string-is-immutable-what-exactly-is-the-meaning/
